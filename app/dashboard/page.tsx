@@ -14,7 +14,7 @@ export default function DashboardPage() {
                         Welcome back,  {user?.firstName || user?.username}! 
                     </h1>
                     <p className="text-gray-600">
-                        Here's what's happening with your admin panel today.
+                        {"Here's what's happening with your admin panel today."}
                     </p>
                 </div>
             </main>
