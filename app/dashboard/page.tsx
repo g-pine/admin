@@ -139,12 +139,10 @@ export default function DashboardPage() {
                                         <Card>
                                             <CardHeader>
                                                 <div>
-                                                    <div className={`w-4 h-4 ${board.color} rounded`}/>
                                                     <Badge>New</Badge>
                                                 </div>
                                             </CardHeader>
                                             <CardContent>
-                                                <CardTitle>{board.title}</CardTitle>
                                                 <CardDescription>{board.description}</CardDescription>
                                             </CardContent>
                                         </Card>

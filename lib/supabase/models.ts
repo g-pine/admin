@@ -1,8 +1,4 @@
-import { ReactNode } from "react";
-
 export interface Board {
-    title: ReactNode;
-    color: any;
     id: string;
     name: string;
     description: string | null;
