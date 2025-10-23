@@ -1,8 +1,8 @@
 export interface Board {
     id: string;
-    name: string;
+    title: string;
     description: string | null;
-    colort: string;
+    color: string;
     user_id: string;
     created_at: string;
     updated_at: string;
